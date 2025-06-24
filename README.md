@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 AI Rate My Professor
 
-## Getting Started
+> A smart tool that uses AI to automatically analyze and summarize student feedback about professors — extracting sentiment, strengths, weaknesses, and generating ratings!
 
-First, run the development server:
+---
+
+## 🔍 Overview
+
+**AI Rate My Professor** is an intelligent system that leverages Natural Language Processing (NLP) to:
+- Parse and clean student reviews
+- Identify sentiment trends
+- Classify key themes like teaching style, behavior, and clarity
+- Generate a **composite score** with a textual summary
+
+Built with the goal of automating and enhancing academic feedback analysis, it can serve as a backend for university portals or educational research.
+
+---
+
+## 🧠 Features
+
+✅ Sentiment analysis of student reviews  
+✅ Rating prediction based on review tone and content  
+✅ Aspect-based breakdown (teaching, attitude, clarity)  
+✅ Summary generation for each professor  
+✅ CLI and Notebook interfaces available
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3.10+**
+- **Transformers (HuggingFace)**
+- **Jupyter Notebooks** (for experimentation)
+
+---
+
+## 📦 Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/Jai-dayanand/AI-Rate-My-Professor.git
+cd AI-Rate-My-Professor
+pip install -r requirements.txt
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
